@@ -1,6 +1,7 @@
 :root {
-  --grafitti: #2e2e2e;
+  --gray: #2e2e2e;
   --green: #3cb371;
+  --white: #cfcbca;
 }
 
 * {
@@ -17,8 +18,8 @@ body {
 }
 
 header {
-  background-color: var(--grafitti);
-  color: #fff;
+  background-color: var(--gray);
+  color: var(--white);
   text-align: center;
   padding: 50px 0;
   height: 100vh;
@@ -58,10 +59,10 @@ section {
 footer {
   text-align: center;
   background-color: #333;
-  color: #fff;
+  color: var(--white);
   padding: 10px 0;
 }
 
 a {
-  color: #fff;
+  color: var(--white);
 }
